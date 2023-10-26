@@ -1,0 +1,18 @@
+class Celular:
+    def __init__(self, marca, modelo, camara):
+        self.marca = marca
+        self.modelo = modelo
+        self.camara = camara
+        
+    def llamar(self):
+        print(f'iniciaste una llamada desde tu {self.marca}')
+    def cortar(self):
+        print(f'cortaste la llamada desde tu {self.marca}')
+        
+celular1 = Celular("Samsunbg", "s23", "45mpx")
+celular2 = Celular("Redmi", "s25", "46mpx")
+
+
+
+celular1.llamar()
+celular2.cortar()

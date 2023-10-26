@@ -1,0 +1,8 @@
+lista=({"snfd",34})
+tupla=(())
+diccionario={
+dsa
+dsad
+asd
+asd
+}
